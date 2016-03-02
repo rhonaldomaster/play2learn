@@ -14,12 +14,12 @@ header{
 }
 h3{
     font-size: 1.5em;
+    font-weight: normal;
 }
 footer{
     background-color: #38CD8A;
     color: #fff;
     margin: 0 auto;
-    margin-top: 2.5em;
     text-align: center;
 }
 .header__logo{
@@ -30,11 +30,17 @@ footer{
     border: 0.1em solid #38CD8A !important;
     border-bottom: 0.2em solid #269362 !important;
 }
+.subscribe{
+    background-color: #2797FF !important;
+    border: 0.1em solid #2797FF !important;
+    border-bottom: 0.2em solid #2276C4 !important;
+}
 .clear{
 	clear: both;
 }
 .hero{
     background-image: url(../img/main.png);
+    background-repeat: no-repeat;
     color: #fff;
     height: 100%;
 	overflow: hidden;
@@ -57,10 +63,6 @@ footer{
     width: 100%;
     z-index: 8;
 }
-.showcase{
-    margin-top: 3em;
-    text-align: center;
-}
 .btn-transparent{
     background-color: transparent;
     border: 0.1em solid #fff;
@@ -72,48 +74,8 @@ footer{
     text-decoration: none;
     width: 15em;
 }
-.showcase-item{
-    display:inline-block;
-	min-height: 10em;
-	margin: 0 1.5em;
-	margin-top: 2em;
-	max-width: 16em;
-    position: relative;
-    width: 16em;
-}
-.showcase-item__img{
-    background-color: #FBFBFB;
-    border: 0.1em solid lightgray;
-    border-radius: 4em;
-    height: 4em;
-    margin: 0 auto;
-    padding: 1.5em 1.3em 1em 1.3em;
-    width: 4em;
-}
-.showcase-item__text{
-    margin-top: 2.5em;
-}
-.footer-social{
-    margin: 0 auto;
-    margin-top: 2.5em;
-    padding: 4em;
-}
-.footer-social img{
-    cursor: pointer;
-    margin-right: 1em;
-}
-.footer-nav{
-    padding: 2em 4em;
-}
-.footer-nav-item{
-    float: none;
-}
-.footer-copy{
-    background-color: #269362;
-    padding: 2em 4em;
-}
-@media screen and (max-width: 980px){
-    .btn-transparent{
-        margin-bottom: 0.5em;
-    }
+.divdash{
+    color: #FBFBFB;
+    margin: 1em auto;
+    width: 5em;
 }

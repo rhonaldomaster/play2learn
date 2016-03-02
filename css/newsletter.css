@@ -1,0 +1,24 @@
+.newsletter{
+    height: 20em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.newsletter-content{
+    position: relative;
+    z-index: 2;
+}
+.newsletter-bg{
+    filter: grayscale(100%);
+    height: auto;
+    left: 53%;
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    width: 60%;
+}
+.newsletter input[type=text]{
+    display: inline-block;
+    padding: 1em;
+    width: 25em;
+}

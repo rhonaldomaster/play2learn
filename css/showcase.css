@@ -1,0 +1,25 @@
+.showcase{
+    margin-top: 3em;
+    text-align: center;
+}
+.showcase-item{
+    display:inline-block;
+	min-height: 10em;
+	margin: 0 1.5em;
+	margin-top: 2em;
+	max-width: 16em;
+    position: relative;
+    width: 16em;
+}
+.showcase-item__img{
+    background-color: #FBFBFB;
+    border: 0.1em solid lightgray;
+    border-radius: 4em;
+    height: 4em;
+    margin: 0 auto;
+    padding: 1.5em 1.3em 1em 1.3em;
+    width: 4em;
+}
+.showcase-item__text{
+    margin-top: 2.5em;
+}

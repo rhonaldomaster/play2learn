@@ -1,0 +1,18 @@
+.footer-social{
+    margin: 0 auto;
+    padding: 4em 0;
+}
+.footer-social img{
+    cursor: pointer;
+    margin-right: 1em;
+}
+.footer-nav{
+    padding: 2em 4em;
+}
+.footer-nav-item{
+    /*float: none;*/
+}
+.footer-copy{
+    background-color: #269362;
+    padding: 2em 4em;
+}

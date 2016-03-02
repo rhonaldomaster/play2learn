@@ -1,0 +1,10 @@
+.video{
+    margin-top: 2em;
+    text-align: center;
+}
+.video-bg{
+    float: left;
+}
+.video-content{
+    float: right;
+}

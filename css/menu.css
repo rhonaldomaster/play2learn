@@ -27,8 +27,3 @@
 .selected{
     border: 0.1em solid #fff;
 }
-@media screen and (max-width: 980px){
-    nav{
-        display: none;
-    }
-}

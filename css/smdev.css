@@ -1,0 +1,38 @@
+@media screen and (max-width: 980px){
+    nav{
+        display: none;
+    }
+    .btn-transparent{
+        margin-bottom: 0.5em;
+    }
+    .showcase{
+        margin-bottom: 2em;
+    }
+    .newsletter{
+        margin-bottom: 2em;
+    }
+    .newsletter-bg{
+        left: 0;
+        width: 100%;
+    }
+    .newsletter-subscribe{
+        padding: 0 1em;
+    }
+    .newsletter input[type=text], .newsletter button{
+        margin-bottom: 0.5em;
+        width: 90%;
+    }
+    .footer-social{
+        padding: 4em 0 0 0;
+    }
+    .footer-social img{
+        margin-right: 0.5em;
+    }
+    .footer-nav{
+        display: block;
+    }
+    .footer-nav-item{
+        float: none;
+        width: 100%;
+    }
+}
