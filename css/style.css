@@ -3,11 +3,12 @@
 }
 header{
     color: #fff;
+    max-width: 100%;
     padding: 0.3em 3em;
     overflow: hidden;
     position: absolute;
     vertical-align: middle;
-    max-width: 100%;
+    width: 90%;
     z-index: 9;
 }
 .header__logo{
@@ -21,8 +22,8 @@ header{
 }
 .hero{
     background-image: url(../img/main.png);
-    height: 55%;
+    height: 100%;
 	overflow: hidden;
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 }

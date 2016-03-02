@@ -11,6 +11,7 @@ nav ul{
 }
 .nav__item {
     float: left;
+    margin-right: 0.1em;
 }
 .nav__item a {
     border: 0.1em solid transparent;
@@ -25,7 +26,6 @@ nav ul{
 }
 .selected{
     border: 0.1em solid #fff;
-    margin-right: 0.1em;
 }
 @media screen and (max-width: 980px){
     nav{
