@@ -1,9 +1,16 @@
 .video{
     margin-top: 2em;
+    position: relative;
     text-align: center;
 }
 .video-bg{
     float: left;
+}
+.video-bg__image{
+    /*height: auto;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;*/
 }
 .video-content{
     float: right;
