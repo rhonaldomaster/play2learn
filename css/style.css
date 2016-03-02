@@ -1,3 +1,28 @@
 *{
-    
+    font-family: Helvetica,sans-serif;
+}
+header{
+    color: #fff;
+    padding: 0.3em 3em;
+    overflow: hidden;
+    position: absolute;
+    vertical-align: middle;
+    max-width: 100%;
+    z-index: 9;
+}
+.header__logo{
+    float: left;
+}
+.register{
+    background-color: #38CD8A;
+}
+.clear{
+	clear: both;
+}
+.hero{
+    background-image: url(../img/main.png);
+    height: 55%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
 }
