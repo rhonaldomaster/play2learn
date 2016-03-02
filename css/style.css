@@ -1,5 +1,6 @@
 *{
     font-family: Helvetica,sans-serif;
+    font-size: 1em;
 }
 header{
     color: #fff;
@@ -11,19 +12,61 @@ header{
     width: 90%;
     z-index: 9;
 }
+h3{
+    font-size: 1.5em;
+}
 .header__logo{
     float: left;
 }
 .register{
-    background-color: #38CD8A;
+    background-color: #38CD8A !important;
+    border: 0.1em solid #38CD8A !important;
+    border-bottom: 0.2em solid #269362 !important;
 }
 .clear{
 	clear: both;
 }
 .hero{
     background-image: url(../img/main.png);
+    color: #fff;
     height: 100%;
 	overflow: hidden;
 	position: relative;
 	max-width: 100%;
+    text-align: center;
+}
+.hero__text{
+    margin-top: 25%;
+    opacity: 1 !important;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.hero__background-over{
+    background-color: black;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 8;
+}
+.showcase{
+    margin-top: 3em;
+    text-align: center;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 0.1em solid #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    width: 15em;
+}
+@media screen and (max-width: 980px){
+    .btn-transparent{
+        margin-bottom: 0.5em;
+    }
 }
