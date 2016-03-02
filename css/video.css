@@ -3,15 +3,22 @@
     position: relative;
     text-align: center;
 }
-.video-bg{
+.video-content{
+
+}
+.video-content-vid{
     float: left;
 }
-.video-bg__image{
-    /*height: auto;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;*/
+.video-content-text{
+    padding: 2.5em 4em;
+    top: 1.5em;
 }
-.video-content{
-    float: right;
+.video-bg{
+    position: absolute;
+}
+.video-bg__image{
+    height: auto;
+    opacity: 0.3;
+    top: 0;
+    width: 100%;
 }
