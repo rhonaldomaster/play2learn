@@ -1,9 +1,9 @@
-nav{
+.header__nav{
     float: right;
     vertical-align: middle;
     margin-right: 0;
 }
-nav ul{
+.header__nav ul{
     list-style-type: none;
     margin: 0;
     overflow: hidden;

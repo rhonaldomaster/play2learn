@@ -15,6 +15,13 @@ header{
 h3{
     font-size: 1.5em;
 }
+footer{
+    background-color: #38CD8A;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    text-align: center;
+}
 .header__logo{
     float: left;
 }
@@ -85,6 +92,25 @@ h3{
 }
 .showcase-item__text{
     margin-top: 2.5em;
+}
+.footer-social{
+    margin: 0 auto;
+    margin-top: 2.5em;
+    padding: 4em;
+}
+.footer-social img{
+    cursor: pointer;
+    margin-right: 1em;
+}
+.footer-nav{
+    padding: 2em 4em;
+}
+.footer-nav-item{
+    float: none;
+}
+.footer-copy{
+    background-color: #269362;
+    padding: 2em 4em;
 }
 @media screen and (max-width: 980px){
     .btn-transparent{
