@@ -1,6 +1,8 @@
 .video{
+    background-attachment: fixed;
     background-image: url(../img/slide.png);
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 2em;
     position: relative;
     text-align: center;
@@ -11,6 +13,7 @@
     padding: 2em;
 }
 .video-content-vid{
+    cursor: pointer;
     display: inline-block;
     margin-right: 12em;
     width: 40%;
@@ -20,4 +23,10 @@
     line-height: 2em;
     padding: 2.5em 0;
     width: 40%;
+}
+.video-content-vid__nav{
+    margin-left: 8em;
+}
+.oval{
+    margin-left: 1em;
 }

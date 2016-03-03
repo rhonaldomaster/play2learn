@@ -24,6 +24,9 @@
 .nav__item:hover {
     border: 0.1em solid #fff;
 }
+.nohover:hover{
+    border: 0.1em solid transparent;
+}
 .selected{
     border: 0.1em solid #fff;
 }

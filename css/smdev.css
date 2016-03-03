@@ -1,9 +1,20 @@
 @media screen and (max-width: 980px){
+    header{
+        padding: 0.3em 1em;
+    }
     nav{
         display: none;
     }
     .btn-transparent{
         margin-bottom: 0.5em;
+    }
+    .hero__text,.showcase-text,.showcase-item__text,
+    .video-content-text,.newsletter-content,
+    .footer-nav,.footer-copy{
+        font-size: 0.8em;
+    }
+    .hero__text{
+        margin-top: 40%;
     }
     .showcase{
         margin-bottom: 2em;
@@ -12,8 +23,11 @@
         display: block;
         width: 100%;
     }
-    .video-content-vid img{
+    .video-content-vid__img{
         width: 100%;
+    }
+    .video-content-vid__nav{
+        margin-left: 0;
     }
     .newsletter{
         margin-bottom: 2em;
@@ -33,7 +47,8 @@
         padding: 4em 0 0 0;
     }
     .footer-social img{
-        margin-right: 0.5em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
     .footer-nav{
         display: block;

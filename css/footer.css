@@ -4,13 +4,14 @@
 }
 .footer-social img{
     cursor: pointer;
+    margin-left: 1em;
     margin-right: 1em;
 }
 .footer-nav{
     padding: 2em 4em;
 }
 .footer-nav-item{
-    
+
 }
 .footer-copy{
     background-color: #269362;
