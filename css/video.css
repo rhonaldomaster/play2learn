@@ -1,24 +1,23 @@
 .video{
+    background-image: url(../img/slide.png);
+    background-repeat: no-repeat;
     margin-top: 2em;
     position: relative;
     text-align: center;
 }
 .video-content{
-
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2em;
 }
 .video-content-vid{
-    float: left;
+    display: inline-block;
+    margin-right: 12em;
+    width: 40%;
 }
 .video-content-text{
-    padding: 2.5em 4em;
-    top: 1.5em;
-}
-.video-bg{
-    position: absolute;
-}
-.video-bg__image{
-    height: auto;
-    opacity: 0.3;
-    top: 0;
-    width: 100%;
+    display: inline-block;
+    line-height: 2em;
+    padding: 2.5em 0;
+    width: 40%;
 }

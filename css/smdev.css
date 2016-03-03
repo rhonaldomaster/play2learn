@@ -8,6 +8,13 @@
     .showcase{
         margin-bottom: 2em;
     }
+    .video-content-vid,.video-content-text{
+        display: block;
+        width: 100%;
+    }
+    .video-content-vid img{
+        width: 100%;
+    }
     .newsletter{
         margin-bottom: 2em;
     }
