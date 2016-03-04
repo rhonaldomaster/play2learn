@@ -28,6 +28,19 @@ footer{
 .underscore{
     text-decoration: underline;
 }
+.btn{
+    border: 0.1em solid #fff;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    width: 15em;
+}
+.btn-transparent{
+    background-color: transparent;
+}
 .btn-main{
     background-color: #38CD8A !important;
     border: 0.1em solid #38CD8A !important;
@@ -37,6 +50,9 @@ footer{
     background-color: #2797FF !important;
     border: 0.1em solid #2797FF !important;
     border-bottom: 0.2em solid #2276C4 !important;
+}
+.btn-menu{
+    width: auto;
 }
 .clear{
 	clear: both;
@@ -68,19 +84,6 @@ footer{
     position: absolute;
     width: 100%;
     z-index: 8;
-}
-.btn{
-    border: 0.1em solid #fff;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    width: 15em;
-}
-.btn-transparent{
-    background-color: transparent;
 }
 .divdash{
     color: #FBFBFB;
