@@ -9,6 +9,7 @@
 		<link rel="shortcut icon" href="img/favicon.png"/>
 		<!-- css -->
 		<link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/menu.css"/>
         <link rel="stylesheet" href="css/showcase.css"/>
@@ -24,16 +25,16 @@
                 <a href="index.html"><img src="img/logo.svg" alt="Play2Learn logo" title="Play2Learn"/></a>
             </div>
             <nav class="header__nav">
-                <ul>
-                    <li class="nav__item selected"><a href="index.html">Inicio</a></li>
-                    <li class="nav__item"><a href="#funciona">C&oacute;mo funciona</a></li>
-                    <li class="nav__item"><a href="#">Precios y licencias</a></li>
-                    <li class="nav__item"><a href="#">FAQ</a></li>
-                    <li class="nav__item"><a href="#">Contacto</a></li>
-                    <li class="nav__item nohover">|</li>
-                    <li class="nav__item underscore"><a href="#">Iniciar sesi&oacute;n</a></li>
-                    <li class="nav__item register"><a href="#">Registrarme</a></li>
+                <ul class="header__nav-list menu">
+                    <li class="nav__item selected"><a class="nav__item-elem" href="index.html">Inicio</a></li>
+                    <li class="nav__item"><a class="nav__item-elem" href="#funciona">C&oacute;mo funciona</a></li>
+                    <li class="nav__item"><a class="nav__item-elem" href="#">Precios y licencias</a></li>
+                    <li class="nav__item"><a class="nav__item-elem" href="#">FAQ</a></li>
+                    <li class="nav__item"><a class="nav__item-elem" href="#">Contacto</a></li>
+                    <li class="nav__item underscore"><a class="nav__item-elem" href="#">Iniciar sesi&oacute;n</a></li>
+                    <li class="nav__item btn btn-main"><a class="nav__item-elem" href="#">Registrarme</a></li>
                 </ul>
+                <div class="responsive-nav-close"><i class="fa fa-times"></i></div>
             </nav>
             <div class="clear"></div>
         </header>
@@ -46,10 +47,11 @@
                 </p>
                 <br><br>
                 <p>
-                    <button class="btn-transparent register">Empezar ahora</button>
-                    <button class="btn-transparent">Ver demo</button>
+                    <button class="btn btn-main">Empezar ahora</button>
+                    <button class="btn btn-transparent">Ver demo</button>
                 </p>
             </div>
+            <div class="responsive-nav-icon"><i class="fa fa-bars"></i></div>
             <div class="hero__background-over"></div>
         </div>
         <article id="funciona" class="showcase">
@@ -119,7 +121,7 @@
                     </p>
                     <br>
                     <br>
-                    <button class="btn-transparent register">Empezar ahora</button>
+                    <button class="btn btn-main">Empezar ahora</button>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -137,7 +139,7 @@
                 <br><br>
                 <div class="newsletter-subscribe">
                     <input type="text" placeholder="Tu correo electr&oacute;nico"/>
-                    <button class="btn-transparent subscribe">Suscribir</button>
+                    <button class="btn btn-second subscribe">Suscribir</button>
                 </div>
             </div>
         </article>
@@ -149,11 +151,11 @@
             </section>
             <nav class="footer-nav">
                 <ul>
-                    <li class="nav__item footer-nav-item"><a href="index.html">Inicio</a></li>
-                    <li class="nav__item footer-nav-item"><a href="#funciona">C&oacute;mo funciona</a></li>
-                    <li class="nav__item footer-nav-item"><a href="#">Precios y licencias</a></li>
-                    <li class="nav__item footer-nav-item"><a href="#">FAQ</a></li>
-                    <li class="nav__item footer-nav-item"><a href="#">Contacto</a></li>
+                    <li class="nav__item footer-nav-item"><a class="nav__item-elem" href="index.html">Inicio</a></li>
+                    <li class="nav__item footer-nav-item"><a class="nav__item-elem" href="#funciona">C&oacute;mo funciona</a></li>
+                    <li class="nav__item footer-nav-item"><a class="nav__item-elem" href="#">Precios y licencias</a></li>
+                    <li class="nav__item footer-nav-item"><a class="nav__item-elem" href="#">FAQ</a></li>
+                    <li class="nav__item footer-nav-item"><a class="nav__item-elem" href="#">Contacto</a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>
@@ -161,5 +163,23 @@
                 &copy; 2016 Play2Learn. Todos los derechos reservados.
             </section>
         </footer>
+        <div id="overlay"></div>
+        <script src="js/jquery.js"></script>
+        <script>
+            $(function() {
+                $('.responsive-nav-icon').click(function() {
+                    $('nav').addClass('slide-in');
+                    $('html').css("overflow", "hidden");
+                    $('#overlay').show();
+                    return false;
+                });
+                $('#overlay, .responsive-nav-close').click(function() {
+                    $('nav').removeClass('slide-in');
+                    $('html').css("overflow", "auto");
+                    $('#overlay').hide();
+                    return false;
+                });
+            });
+        </script>
     </body>
 </html>

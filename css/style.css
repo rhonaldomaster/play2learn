@@ -28,12 +28,12 @@ footer{
 .underscore{
     text-decoration: underline;
 }
-.register{
+.btn-main{
     background-color: #38CD8A !important;
     border: 0.1em solid #38CD8A !important;
     border-bottom: 0.2em solid #269362 !important;
 }
-.subscribe{
+.btn-second{
     background-color: #2797FF !important;
     border: 0.1em solid #2797FF !important;
     border-bottom: 0.2em solid #2276C4 !important;
@@ -69,8 +69,7 @@ footer{
     width: 100%;
     z-index: 8;
 }
-.btn-transparent{
-    background-color: transparent;
+.btn{
     border: 0.1em solid #fff;
     color: #fff;
     cursor: pointer;
@@ -79,6 +78,9 @@ footer{
     padding: 1em;
     text-decoration: none;
     width: 15em;
+}
+.btn-transparent{
+    background-color: transparent;
 }
 .divdash{
     color: #FBFBFB;

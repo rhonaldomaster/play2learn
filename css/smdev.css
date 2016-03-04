@@ -2,10 +2,10 @@
     header{
         padding: 0.3em 1em;
     }
-    nav{
+    /*nav{
         display: none;
-    }
-    .btn-transparent{
+    }*/
+    .btn{
         margin-bottom: 0.5em;
     }
     .hero__text,.showcase-text,.showcase-item__text,
@@ -51,7 +51,6 @@
         display: block;
     }
     .footer-nav-item{
-        float: none;
         width: 100%;
     }
 }

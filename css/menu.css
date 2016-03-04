@@ -2,8 +2,9 @@
     float: right;
     vertical-align: middle;
     margin-right: 0;
+    z-index: 12;
 }
-.header__nav ul{
+.header__nav-list{
     list-style-type: none;
     margin: 0;
     overflow: hidden;
@@ -14,7 +15,7 @@
     display: inline-block;
     margin-right: 0.1em;
 }
-.nav__item a {
+.nav__item-elem {
     color: #fff;
     display: block;
     text-align: center;
@@ -29,4 +30,84 @@
 }
 .selected{
     border: 0.1em solid #fff;
+}
+.responsive-nav-icon,
+.responsive-nav-close {
+    color: #38CD8A;
+    font-family: FontAwesome;
+    font-size: 22px;
+    position: relative;
+}
+.responsive-nav-close {
+    color: #38CD8A;
+    font-size: 18px;
+    text-shadow: 0 0 0.5em #000;
+}
+.responsive-nav-icon {
+	line-height: normal;
+	padding: 5px 8px 4px;
+	top: 4%; right: 8%;
+}
+.responsive-nav-icon:hover,
+.responsive-nav-close:hover {
+	opacity: .7;
+}
+.responsive-nav-close {
+	top: 0; right: 2%;
+}
+.responsive-nav-icon,
+.responsive-nav-close {
+    cursor: pointer;
+    display: none;
+}
+#overlay {
+    background: 0 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    width: 100%;
+    z-index: 10;
+}
+@media only screen and (max-width: 980px) {
+    header{
+        z-index: 12;
+    }
+    .responsive-nav-icon,
+	.responsive-nav-close {
+	    display: block;
+	    position: absolute;
+	    z-index: 12;
+	}
+	.header__nav {
+        background-color: rgba(255, 255, 255, 0.7);
+	    height: 100%;
+	    padding: 20px;
+	    position: fixed;
+	    top: 0; left: -400px;
+	    -moz-transition: all 0.2s linear 0s;
+	    -webkit-transition: all 0.2s linear 0s;
+	    -ms-transition: all 0.2s linear 0s;
+	    transition: all 0.2s linear 0s;
+	    width: 0;
+	}
+    .header__nav-list{
+        margin-top: 10%;
+    }
+	.header__nav.slide-in {
+	    left: 0;
+	    overflow-y: scroll;
+	    width: 280px;
+	    z-index: 10;
+	}
+	.header__nav .nav__item {
+		display: block;
+	}
+    .nav__item-elem{
+        text-shadow: 0 0 0.7em #000;
+    }
 }
