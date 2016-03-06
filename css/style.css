@@ -2,6 +2,10 @@
     font-family: Helvetica,sans-serif;
     font-size: 1em;
 }
+html,body {
+    height: 100%;
+    width: 100%;
+}
 header{
     color: #fff;
     max-width: 100%;
@@ -85,8 +89,14 @@ footer{
     width: 100%;
     z-index: 8;
 }
-.divdash{
-    color: #FBFBFB;
-    margin: 1em auto;
-    width: 5em;
+.division{
+    border-bottom: lightgray 0.1em solid;
+    display: inline-block;
+    padding-bottom: 3em;
+}
+.separatedup{
+    margin-top: 4em;
+}
+.separatedown{
+    margin-bottom: 4em;
 }
